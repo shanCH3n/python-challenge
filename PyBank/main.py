@@ -75,7 +75,7 @@ print("Greatest Decrease in Profits: ", min_change(row_pl, row_date))
 ## "a" is used to add text to existing text in file.
 ## Note: If you rerun the script with the same text file name, it just accummulates the output text in the same file.
 
-####Test code for writting analysis results into file
+####PLEASE IGNORE: Initial code for writting analysis results into file
 ##with open("output_budget.txt", 'a') as f:
     ##f.write("Financial Analysis,")
     ##f.write("Total number of months: 86,")
