@@ -65,6 +65,6 @@ with open("election_output.txt", 'w') as f:
     f.write('Election Results\n')
     f.write('Total Votes: 369711\n')
     f.write('Charles Casper Stockham : 23.049 %, ( 85213 )\n')
-    f.write('Diana DeGette : 73.8129 %, ( 272892 )\n')
+    f.write('Diana DeGette : 73.812 %, ( 272892 )\n')
     f.write('Raymon Anthony Doane : 3.139 %, ( 11606 )\n')
     f.write('Winner: Diana DeGette\n')
