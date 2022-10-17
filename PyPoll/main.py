@@ -1,4 +1,4 @@
-##Analysis of Financial Records (Shannon Chen)
+##Analysis of Polling Records (Shannon Chen)
 
 #Modules for i) creating file paths across operating systems and ii) reading csv files
 
@@ -53,7 +53,7 @@ def candidate_votes(election):
         print(x,":", "{:.3f}".format(percentage_vote), "%,", "(",total_vote,")")
         
         #Winner of popular vote
-        #sorry, i just use a lazy way of seeing who has more than 50% vote as i can't use the max() function in a for loop
+        #Defined as who has more than 50% vote as max() function in a for loop
         if percentage_vote > 50:
             print("Winner:", x)
 
